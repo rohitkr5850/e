@@ -1,0 +1,36 @@
+
+nav {
+  display: flex;
+  gap: 20px;
+}
+.section {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.section-1 a {
+  color: blue;
+}
+.section-2 a {
+  color: green;
+}
+.section-3 a {
+  color: orange;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: darkgray;
+}
+a:active {
+  color: red; 
+}
+
+.section > a {
+  font-weight: bold; 
+}
+
+a[href^="https"] {
+  color: purple !important;
+}
